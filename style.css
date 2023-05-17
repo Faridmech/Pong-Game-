@@ -12,6 +12,7 @@
 body{
     margin: 0;
     background-color: var(--background-color);
+    overflow: hidden;
 }
 
 .paddle{
@@ -25,11 +26,11 @@ body{
     width: 1vw;
 }
 .paddle.left{
-    left: 1vw;
+    left: 0.5vw;
 }
 
 .paddle.right{
-    right: 1vw;
+    right: 0.5vw;
 }
 
 .ball{
